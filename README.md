@@ -1,6 +1,6 @@
 # ASP.NET MVC Stok Takip Uygulaması
 
-Bu proje, **ASP.NET MVC 5** konusunda pratik yapmak amacıyla geliştirilmiş bir stok takip sistemidir. Uygulamada temel olarak kategori, ürün, müşteri ve personel yönetimi yapılabilmektedir. 
+Bu proje, **ASP.NET MVC 5** konusunda pratik yapmak amacıyla geliştirilmiş bir stok takip sistemidir. Uygulamada temel olarak kategori, ürün, müşteri ve personel yönetimi ve stok hareketlerinin takibi yapılabilmektedir. 
 
 ## 🚀 Temel Özellikler
 
