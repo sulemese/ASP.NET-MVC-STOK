@@ -1,25 +1,32 @@
 # ASP.NET MVC Stok Takip Uygulaması
 
-Bu proje, **ASP.NET MVC 5** kullanılarak geliştirilmiş bir stok takip sistemidir. Veritabanı işlemleri **Entity Framework Database-First** yaklaşımıyla gerçekleştirilmiştir. Uygulamada temel olarak kategori, ürün, müşteri ve personel yönetimi yapılabilmektedir.
+Bu proje, **ASP.NET MVC 5** konusunda pratik yapmak amacıyla geliştirilmiş bir stok takip sistemidir. Uygulamada temel olarak kategori, ürün, müşteri ve personel yönetimi yapılabilmektedir. 
 
-## 🚀 Özellikler
+## 🚀 Temel Özellikler
 
-- Bootstrap 3 ile şık ve responsive tasarım
-- Data Annotation + `@Html.ValidationMessageFor` ile form doğrulama (validasyon)
-- Entity Framework 6 ile SQL Server veritabanı bağlantısı
-- Html Helpers (`@Html.TextBoxFor`, `@Html.DropDownListFor` vb.) ile dinamik ve okunabilir Razor View sayfaları
-- PagedList.Mvc NuGet paketi ile liste sayfalarında sayfalama (pagination) özelliği
-- Katmanlı mimari prensipleriyle temiz ve düzenli kod yapısı
+✅ Kategori, ürün, müşteri ve personel yönetimi  
+✅ SQL Server üzerinde **Entity Framework (Database-First)** yaklaşımı  
+✅ Bootstrap ile responsive ve kullanıcı dostu arayüz  
+✅ Form doğrulama (validation) ile güvenli veri girişi  
+✅ Sayfalama desteği (`PagedList.Mvc`) ile uzun listelerde performanslı gezinme  
+✅ Soft delete desteği (aktiflik kontrolü ile silme)  
+✅ `@Html.*For` HTML Helpers ile temiz ve okunabilir Razor yapısı  
+
+---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- ASP.NET MVC 5
-- Entity Framework 6 (Database-First)
-- SQL Server
-- Bootstrap 3
-- LINQ
-- Razor View Engine
-- PagedList.Mvc (NuGet Paketi)
+| Teknoloji | Açıklama |
+|----------|----------|
+| ASP.NET MVC 5 | Web uygulama çatısı |
+| Entity Framework 6 | ORM katmanı (Database First) |
+| SQL Server | Veritabanı |
+| Bootstrap 3 | UI tasarımı |
+| Razor View Engine | Dinamik sayfa render işlemleri |
+| PagedList.Mvc | Sayfalama (pagination) desteği |
+| jQuery + jQuery Validate | Form doğrulama için JavaScript kütüphaneleri |
+
+---
 
 ## 🗃️ Veritabanı Tasarımı
 
